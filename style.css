@@ -1,0 +1,24 @@
+h3
+{
+    font-size: 25px !important;
+}
+.btn-success:hover
+{
+    background-image:linear-gradient(to right,rgb(0, 38, 255),rgb(255, 0, 242));
+}
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from{
+        box-shadow: 1px 1px 38px rgb(248, 10, 236);  
+    }
+    to {
+        box-shadow:1px 1px 38px rgb(17, 0, 255);
+    }
+    
+}
+
